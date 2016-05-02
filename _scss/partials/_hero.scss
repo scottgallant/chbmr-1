@@ -1,0 +1,46 @@
+#banner {
+	background-image: url("/images/banner.jpg");
+	background-position: center center;
+	background-size: cover;
+	height: 28em;
+	text-align: center;
+	position: relative;
+}
+
+#banner header {
+	text-align: left;
+	padding-top: 100px;
+
+	h1 {
+		font-size: 28px;
+		font-weight: 700;
+	}
+	h2 {
+		font-size: 20px;
+		font-weight: 700;
+	}
+}
+
+#banner header h2 {
+	display: inline-block;
+	margin: 0;
+	font-size: 1.25em;
+	vertical-align: middle;
+}
+
+#banner header h2 em {
+	opacity: 0.75;
+}
+
+#banner header h2 a {
+	border-bottom-color: rgba(255, 255, 255, 0.5);
+}
+
+#banner header h2 a:hover {
+	border-bottom-color: transparent;
+}
+
+#banner header .button {
+	vertical-align: middle;
+	margin-left: 1em;
+}

@@ -1,0 +1,30 @@
+name: Your New Jekyll Site
+markdown: redcarpet
+highlighter: pygments # or rouge or null
+exclude: ["node_modules", "gulpfile.js", "package.json"]
+path:  ''
+
+navigation:
+- root: Home
+  url: /
+- root: About Us
+  url: index.html
+  first-level:
+    - text: About Us
+      url: index.html
+    - text: Staff
+      url: index.html
+    - text: Board
+      url: index.html
+    - text: SPORE/MSSU
+      url: index.html
+    - text: Partners Collaborators
+      url: index.html
+    - text: Job Postings
+      url: index.html
+- root: Projects
+  url: index.html
+- root: Publications
+  url: index.html
+- root: Contact Us
+  url: index.html

@@ -1,0 +1,23 @@
+// Base colors
+$brand-color: #8b2004;
+$font-dark: #061828;
+$link-color: $brand-color;
+// $brand-80-color: rgba($color-brand, 0.8);
+// $accent-color: yellow;
+
+$thin-line: 1px solid #eee;
+
+// Media queries
+$retina:"
+	(min--moz-device-pixel-ratio: 1.3),
+	(-o-min-device-pixel-ratio: 2.6/2),
+	(-webkit-min-device-pixel-ratio: 1.3),
+	(min-device-pixel-ratio: 1.3),
+	(min-resolution: 1.3dppx)";
+
+
+$screen-sm:"(max-width: 35.5em)"; // 568px	.pure-u-sm-*
+$screen-md:"(min-width: 35.5em) and (max-width: 48em)"; // 768px	.pure-u-md-*
+$screen-lg:"(min-width: 48em) and (max-width: 64em)"; // 1024px	.pure-u-lg-*
+$screen-xl:"(min-width: 64em) and (max-width: 80em)"; // 1280px	.pure-u-xl-*
+$screen-xxl:"(min-width: 80em)"; // > 1280px
