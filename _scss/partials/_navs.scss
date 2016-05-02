@@ -19,13 +19,14 @@ nav {
 	li {
 		float: left;
 		margin: 0;
-		margin-left: 20px;
+		margin-left: 30px;
 
 		a {
 			color: $font-dark;
 			padding: 3px 12px;
 			display: inline-block;
 			letter-spacing: 1px;
+			transition: color .4s ease;
 
 			.fa {
 					font-size: 10px;
@@ -34,6 +35,7 @@ nav {
 					float: right;
 					margin-left: 5px;
 					margin-right: -10px;
+					width: 11px;
 			}
 		}
 
@@ -54,25 +56,35 @@ nav {
 }
 
 .breadcrumbs {
-	border-bottom: $thin-line;
+	border-top: $thin-line;
 	overflow: auto;
+	background: #f7f7f7;
+	margin-bottom: 60px;
 
 	ul {
 		float: left;
-		margin-top: 14px;
+		margin-top: 0;
 
 		li {
-			line-height: 30px;
+			line-height: 50px;
 			float: left;
 			margin-right: 7px;
 
-			span {
+			a {
+				color: $font-special;
+			}
+
+			i {
 				margin-left: 5px;
-				color: lighten($link-color, 30%);
+				color: lighten($font-special, 40%);
+				font-size: 9px;
+				margin-top: -3px;
+				top: -2px;
+    		position: relative;
 			}
 
 			&:last-child {
-				span {
+				i {
 					display: none;
 				}
 			}
@@ -97,7 +109,7 @@ nav {
     font-weight: 700;
     font-size: 17px;
     border-radius: 0;
-    padding: 8px 10px;
+    padding: 5px;
     display: block;
     white-space: nowrap;
     line-height:25px;
@@ -112,24 +124,31 @@ nav {
     position:absolute;
     list-style-type: none;
     top: 30px;
-    padding-top: 35px !important;
+    padding-top: 5px !important;
     margin: 0;
     padding: 0;
-    // border:2px solid #666;
-    // border-radius: 5px;
+    border-radius: 0 0 3px 3px;
     left:0;
     display: none;
     min-width: 100%;
     z-index: 999;
+		border: 1px solid rgba($brand-color, 0.8);
+		border-top: 0;
+		top: 65px;
 }
 .navigation li:hover > ul {
-    display: block;
+    // display: block;
     list-style: none;
 }
 .navigation li ul li {
     display: block;
     float: none;
     margin-left: 0;
+
+    &:last-child {
+    	border-radius: 0 0 3px 3px;
+    	overflow: hidden;
+    }
 
     a {
     	padding: 10px 15px;

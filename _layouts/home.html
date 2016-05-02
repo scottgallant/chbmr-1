@@ -1,32 +1,30 @@
 {% include header.html %}
 {% include head.html %}
 <section id="banner" style="background-image: url('/images/banner_upei.png')">
-  <header>
-		<div class="container pure-g">
-			<div class="pure-u-1 pure-u-md-1">
-				<div class="content">
-					<h1>CHBMR</h1>
-					<h2>The Centre for Health and Biotech Management Research</h2>
-					<div><a href="#" class="pure-button button-success">Learn More <i class="fa fa-chevron-right"></i></a></div>
-				</div>
-			</div>
-		</div>
-	</header>
-</section>
-<section>
 	<div class="container pure-g">
 		<div class="pure-u-1 pure-u-md-1">
-			<div class="content">
+			<header class="call-to-action">
+				<h1>CHBMR</h1>
+				<h2>The Centre for Health and Biotech Management Research</h2>
+				<div><a href="#" class="pure-button button-success button-xlarge">Learn More <i class="fa fa-chevron-right"></i></a></div>
+			</div>
+		</header>
+	</div>
+</section>
+<section class="main-message">
+	<div class="container pure-g">
+		<div class="pure-u-1 pure-u-md-1">
+			<div class="content content-narrow">
 				<p>{{ page.message }}</p>
 			</div>
 		</div>
 	</div>
 </section>
-<section>
+<section class="services">
 	<div class="container pure-g">
 	{% for item in page.services %}
   <div class="pure-u-1 pure-u-md-1-2">
-		<div class="services">
+		<div class="service">
 			<div class="service-icon"><img src="{{ item.icon }}" alt=""></div>
 			<h2>{{ item.heading }}</h2>
 			<p>{{ item.description }}</p>
@@ -35,9 +33,15 @@
 	{% endfor %}
 	</div>
 </section>
-<ul class="posts">
-  {% for post in site.posts %}
-    <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
-  {% endfor %}
-</ul>
+<section>
+	<div class="container pure-g">
+		<div class="pure-u-1 pure-u-md-1">
+			<ul class="posts">
+			  {% for post in site.posts %}
+			    <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
+			  {% endfor %}
+			</ul>
+		</div>
+	</div>
+</section>
 {% include footer.html %}

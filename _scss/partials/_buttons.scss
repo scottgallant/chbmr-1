@@ -1,10 +1,31 @@
+.pure-button {
+	padding: .5em 1.5em;
+}
+
+.button-xsmall {
+  font-size: 70%;
+}
+
+.button-small {
+  font-size: 85%;
+}
+
+.button-large {
+  font-size: 110%;
+}
+
+.button-xlarge {
+  font-size: 100%;
+  padding: 1em 3em;
+}
+
 .button-success,
 .button-error,
 .button-warning,
 .button-secondary {
     color: white;
     border-radius: 4px;
-    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+    text-shadow: none;
 }
 
 .button-success {

@@ -1,14 +1,15 @@
 $(function() {
-	$('.expanding-faq').on({
-    mouseenter: function(){
-			$(this).addClass('hover');
-    },
-    mouseleave: function(){
-			$(this).removeClass('hover');
-    }
-  });
-	$('.expanding-faq').on('click', function(e) {
-	   $(this).children('.answer').slideToggle('fast');
-	   e.preventDefault();
-	});
+	function slideDown(){
+		console.log("make tall");
+		$(this).children('ul').slideDown(200);
+	}
+	function slideUp(){
+		console.log("make tall");
+		$(this).children('ul').slideUp(200);
+	}
+	$("li.nested").hoverIntent({
+		over: slideDown,
+    out: slideUp,
+    timeout: 300
+   });
 });

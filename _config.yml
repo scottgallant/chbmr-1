@@ -3,28 +3,29 @@ markdown: redcarpet
 highlighter: pygments # or rouge or null
 exclude: ["node_modules", "gulpfile.js", "package.json"]
 path:  ''
+permalink: pretty
 
 navigation:
 - root: Home
   url: /
 - root: About Us
-  url: index.html
+  url: /about
   first-level:
     - text: About Us
-      url: index.html
+      url: /about
     - text: Staff
-      url: index.html
+      url: /about/staff
     - text: Board
-      url: index.html
+      url: /about/board
     - text: SPORE/MSSU
-      url: index.html
+      url: /about/spore-mssu
     - text: Partners Collaborators
-      url: index.html
+      url: /about/partners-collaborators
     - text: Job Postings
-      url: index.html
+      url: /about/jobs
 - root: Projects
-  url: index.html
+  url: /projects
 - root: Publications
-  url: index.html
+  url: /publications
 - root: Contact Us
-  url: index.html
+  url: /contact
