@@ -143,7 +143,7 @@ td, th {
   padding: 0; }
 
 .container {
-  max-width: 60em;
+  max-width: 1100px;
   margin: 0 auto; }
   @media (min-width: 64em) and (max-width: 80em) {
     .container {
@@ -202,7 +202,7 @@ h1, h2, h3, h4, a, p, li {
 
 #banner {
   background-image: url("/images/banner.jpg");
-  background-position: center center;
+  background-position: 0 0;
   background-size: cover;
   height: 28em;
   text-align: center;
@@ -279,9 +279,14 @@ h1, h2, h3, h4, a, p, li {
   padding: 40px;
   text-align: center; }
   .plain-header h2 {
-    font-size: 40px;
+    font-size: 36px;
     font-weight: 700;
-    color: #1e405d; }
+    color: #1e405d;
+    margin: 0; }
+  .plain-header h3 {
+    font-size: 20px;
+    font-weight: 300;
+    margin: .5em 0 0 0; }
 
 .content-subhead {
   margin: 50px 0 20px 0;
@@ -395,9 +400,6 @@ nav ul {
       margin-left: 5px;
       margin-right: -10px;
       width: 11px; }
-  .main-nav li:last-child {
-    background: white;
-    border-radius: 20px; }
 
 .side-nav {
   margin-top: 5px;
@@ -408,7 +410,7 @@ nav ul {
 .breadcrumbs {
   border-top: 1px solid #eee;
   overflow: auto;
-  background: #f7f7f7;
+  background: #f8f8f8;
   margin-bottom: 60px; }
   .breadcrumbs ul {
     float: left;
@@ -416,18 +418,18 @@ nav ul {
     .breadcrumbs ul li {
       line-height: 50px;
       float: left;
-      margin-right: 7px; }
+      margin-right: 7px;
+      font-size: 14px;
+      font-weight: 300; }
       .breadcrumbs ul li a {
         color: #1e405d; }
       .breadcrumbs ul li i {
         margin-left: 5px;
         color: #75a7d2;
-        font-size: 9px;
-        margin-top: -3px;
+        font-size: 7px;
+        margin-top: -4px;
         top: -2px;
         position: relative; }
-      .breadcrumbs ul li:last-child i {
-        display: none; }
 
 .navigation {
   margin-bottom: 0;
@@ -543,6 +545,16 @@ nav ul {
   background: #42b8dd;
   /* this is a light blue */ }
 
+.button-outline {
+  background: transparent;
+  border: 1px solid #999;
+  color: #555;
+  transition: all .2s ease; }
+  .button-outline:hover {
+    background: #8b2004;
+    color: white;
+    border-color: #8b2004; }
+
 .main-message {
   text-align: center;
   padding: 30px 0;
@@ -566,6 +578,50 @@ nav ul {
     margin-right: auto;
     font-weight: 400;
     line-height: 1.3em; }
+
+.feature {
+  background: url("/images/background-image.jpg");
+  background-size: cover;
+  text-align: center;
+  box-sizing: border-box;
+  padding: 60px 0;
+  height: 400px; }
+  .feature h2 {
+    font-size: 40px;
+    color: white;
+    font-weight: 700; }
+  .feature p {
+    font-size: 30px;
+    color: rgba(255, 255, 255, 0.8);
+    font-weight: 500; }
+
+.news-twitter {
+  background: #f4f4f4;
+  color: #1e405d;
+  padding: 50px 0; }
+  .news-twitter h2 {
+    font-weight: 700; }
+  .news-twitter .container > div:last-child {
+    border-left: 1px solid #ddd; }
+  .news-twitter .col-wrap {
+    padding: 0 50px; }
+  .news-twitter .posts {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 40px; }
+    .news-twitter .posts li {
+      margin-bottom: 1.5em; }
+      .news-twitter .posts li a {
+        text-decoration: none;
+        color: #1e405d;
+        font-size: 18px; }
+      .news-twitter .posts li date {
+        display: block;
+        font-size: 14px;
+        color: rgba(30, 64, 93, 0.5); }
+  .news-twitter a.button-outline i {
+    font-size: 10px; }
 
 /*!
  *  Font Awesome 4.6.1 by @davegandy - http://fontawesome.io - @fontawesome

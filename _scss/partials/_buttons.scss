@@ -43,3 +43,16 @@
 .button-secondary {
     background: rgb(66, 184, 221); /* this is a light blue */
 }
+
+.button-outline {
+  background: transparent;
+  border: 1px solid #999;
+  color: #555;
+  transition: all .2s ease;
+
+  &:hover {
+    background: $brand-color;
+    color: white;
+    border-color: $brand-color;
+  }
+}

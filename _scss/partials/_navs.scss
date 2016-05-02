@@ -38,11 +38,6 @@ nav {
 					width: 11px;
 			}
 		}
-
-		&:last-child {
-			background: white;
-			border-radius: 20px;
-		}
 	}
 }
 
@@ -58,7 +53,7 @@ nav {
 .breadcrumbs {
 	border-top: $thin-line;
 	overflow: auto;
-	background: #f7f7f7;
+	background: #f8f8f8;
 	margin-bottom: 60px;
 
 	ul {
@@ -69,24 +64,20 @@ nav {
 			line-height: 50px;
 			float: left;
 			margin-right: 7px;
+            font-size: 14px;
+            font-weight: 300;
 
 			a {
 				color: $font-special;
 			}
 
 			i {
-				margin-left: 5px;
-				color: lighten($font-special, 40%);
-				font-size: 9px;
-				margin-top: -3px;
-				top: -2px;
-    		position: relative;
-			}
-
-			&:last-child {
-				i {
-					display: none;
-				}
+                margin-left: 5px;
+                color: lighten($font-special, 40%);
+                font-size: 7px;
+                margin-top: -4px;
+                top: -2px;
+                position: relative;
 			}
 		}
 	}
