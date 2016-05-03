@@ -693,6 +693,10 @@ nav ul {
       margin-right: -10px;
       width: 11px; }
 
+@media (max-width: 768px) {
+  .main-nav {
+    display: none; } }
+
 .side-nav {
   margin-top: 5px;
   padding: 20px 20px 20px 0; }
