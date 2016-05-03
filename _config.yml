@@ -1,4 +1,6 @@
 ---
+baseurl: /chbmr
+
 footer-nav-about:
 - title: About Us
   href: "/about"
