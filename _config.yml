@@ -1,6 +1,39 @@
 ---
-baseurl: /chbmr
-
+collections:
+  projects:
+    output: true
+    permalink: "/projects/:path/"
+  jobs:
+    output: true
+    permalink: "/about/jobs/:path/"
+  posts:
+    output: true
+    permalink: "/:year/:title/"
+exclude:
+- node_modules
+- gulpfile.js
+- package.json
+- vendor
+- vendor
+markdown: redcarpet
+highlighter: pygments
+port: 4000
+baseurl: "/chbmr"
+permalink: "/:year/:title/"
+defaults:
+- scope:
+    path: ''
+    type: ''
+  values:
+    sub-title: ''
+kramdown:
+  auto_ids: true
+  toc_levels: 1..6
+  entity_output: as_char
+  smart_quotes: lsquo,rsquo,ldquo,rdquo
+  input: GFM
+  hard_wrap: false
+  footnote_nr: '1'
 footer-nav-about:
 - title: About Us
   href: "/about"
@@ -39,37 +72,3 @@ navigation:
 - root: Contact Us
   url: "/contact"
 name: UPEI Centre for Health & Biotech Management Research
-kramdown:
-  auto_ids: true
-  toc_levels: 1..6
-  entity_output: as_char
-  smart_quotes: lsquo,rsquo,ldquo,rdquo
-  input: GFM
-  hard_wrap: false
-  footnote_nr: '1'
-permalink: "/:year/:title/"
-port: 4000
-highlighter: pygments
-markdown: redcarpet
-exclude:
-- node_modules
-- gulpfile.js
-- package.json
-- vendor
-collections:
-  projects:
-    output: true
-    permalink: "/projects/:path/"
-  jobs:
-    output: true
-    permalink: "/about/jobs/:path/"
-  posts:
-    output: true
-    permalink: "/:year/:title/"
-
-defaults:
-  - scope:
-      path: ""
-      type: post
-    values:
-      sub-title: ""
