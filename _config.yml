@@ -11,7 +11,7 @@ collections:
     permalink: /projects/:path/
   jobs:
     output: true
-    permalink: /jobs/:path/
+    permalink: /about/jobs/:path/
 
 navigation:
 - root: Home
