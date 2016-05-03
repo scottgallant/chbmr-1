@@ -1,4 +1,4 @@
-name: Your New Jekyll Site
+name: UPEI Centre for Health & Biotech Management Research
 markdown: redcarpet
 highlighter: pygments # or rouge or null
 exclude: ["node_modules", "gulpfile.js", "package.json"]
@@ -9,6 +9,9 @@ collections:
   projects:
     output: true
     permalink: /projects/:path/
+  jobs:
+    output: true
+    permalink: /jobs/:path/
 
 navigation:
 - root: Home
@@ -34,3 +37,11 @@ navigation:
   url: /publications
 - root: Contact Us
   url: /contact
+
+footer-nav-about:
+- { title: 'About Us', href: '/about'}
+- { title: 'Staff', href: '/about/staff'}
+- { title: 'Board', href: '/about/board'}
+- { title: 'SPORE/MSSU', href: '/about/spore-mssu'}
+- { title: 'Partners Collaborators', href: '/about/partners-collaborators'}
+- { title: 'Job Postings', href: '/about/jobs'}

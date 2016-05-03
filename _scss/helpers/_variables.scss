@@ -1,6 +1,7 @@
 // Base colors
 $brand-color: #8b2004;
 $font-dark: #061828;
+$font-light: #eee;
 $link-color: $brand-color;
 $font-special: #1e405d;
 
@@ -18,8 +19,8 @@ $retina:"
 	(min-resolution: 1.3dppx)";
 
 
-$screen-sm:"(max-width: 35.5em)"; // 568px	.pure-u-sm-*
-$screen-md:"(min-width: 35.5em) and (max-width: 48em)"; // 768px	.pure-u-md-*
-$screen-lg:"(min-width: 48em) and (max-width: 64em)"; // 1024px	.pure-u-lg-*
-$screen-xl:"(min-width: 64em) and (max-width: 80em)"; // 1280px	.pure-u-xl-*
-$screen-xxl:"(min-width: 80em)"; // > 1280px
+$screen-sm:"(max-width: 568px)"; //	.pure-u-sm-*
+$screen-md:"(min-width: 568px) and (max-width: 768px)"; //	.pure-u-md-*
+$screen-lg:"(min-width: 768px) and (max-width: 1024px)"; //.pure-u-lg-*
+$screen-xl:"(min-width: 1024px) and (max-width: 1280px)"; //.pure-u-xl-*
+$screen-xxl:"(min-width: 1280em)";

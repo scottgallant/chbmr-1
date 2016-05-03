@@ -46,10 +46,24 @@
 	<div class="container pure-g">
 		<div class="pure-u-1 pure-u-md-1-2">
 			<div class="col-wrap">
-					<h2>Twitter</h2>
-				<a class="twitter-timeline" height="600" hide_media=true data-cards="hidden" data-tweet-limit="2" data-chrome="noheader nofooter noborders transparent noscrollbar" data-dnt="true" href="https://twitter.com/TheCHBMR" data-widget-id="727203581217148928">Tweets by @TheCHBMR</a>
-				<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-				<a href="/posts/" class="button-outline pure-button">Follow @TheCHBRM <i class="fa fa-chevron-right"></i></a>
+				<h2>Twitter</h2>
+				<ul class="posts">
+				    <li>
+				    	<a href="#">RN's are available 24 hours a day to answer your health questions. Dial 8-1-1 to access non-emergency health info. </a>
+				    	<date>Feb 1, 2016</date>
+				    </li>
+				    <li>
+				    	<a href="#">UPEI Clinical Trial to aid in Addictions Treatment - WantToQuit.ca</a>
+				    	<date>Feb 19, 2016</date>
+				    </li>
+				    <li>
+				    	<a href="#">CBT4CBT Clinical Trial at UPEI - The online program that may revolutionize addiction treatment - See more at: </a>
+				    	<a href="http://kernelmag.dailydot.com/issue-sections/features-issue-sections/15680/drug-addiction-recovery-program-cbt4cbt/">kernelmag.dailydot.com/</a>
+				    	<date>Feb 19, 2016</date>
+				    </li>
+				<!-- <a class="twitter-timeline" height="600" hide_media=true data-cards="hidden" data-tweet-limit="2" data-chrome="noheader nofooter noborders transparent noscrollbar" data-dnt="true" href="https://twitter.com/TheCHBMR" data-widget-id="727203581217148928">Tweets by @TheCHBMR</a>
+				<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script> -->
+				<a href="https://twitter.com/TheCHBMR" class="button-outline pure-button">Follow @TheCHBRM <i class="fa fa-chevron-right"></i></a>
 			</div>
 		</div>
 		<div class="pure-u-1 pure-u-md-1-2">
@@ -65,6 +79,21 @@
 				</ul>
 				<a href="/posts/" class="button-outline pure-button">More News <i class="fa fa-chevron-right"></i></a>
 			</div>
+		</div>
+	</div>
+</section>
+<section class="partners">
+	<div class="container">
+		<h2>Funding Partners</h2>
+		<div class="flexslider">
+		  <ul class="slides">
+		  	{% for partner in page.partners %}
+					<li>
+					  <img src="{{ .partner.logo }}" />
+					</li>
+		  	{% endfor %}
+		    <!-- items mirrored twice, total of 12 -->
+		  </ul>
 		</div>
 	</div>
 </section>
