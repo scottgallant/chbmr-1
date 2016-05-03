@@ -66,3 +66,10 @@ collections:
   posts:
     output: true
     permalink: "/:year/:title/"
+
+defaults:
+  - scope:
+      path: ""
+      type: ""
+    values:
+      sub-title: ""
