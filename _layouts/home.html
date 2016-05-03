@@ -1,6 +1,6 @@
 {% include header.html %}
 {% include head.html %}
-<section id="banner" style="background-image: url('/images/banner_upei.png')">
+<section id="banner" style="background-image: url('{{ site.baseurl }}/images/banner_upei.png')">
 	<div class="container pure-g">
 		<div class="pure-u-1 pure-u-md-1">
 			<header class="call-to-action">
@@ -25,7 +25,7 @@
 	{% for item in page.services %}
   <div class="pure-u-1 pure-u-md-1-2">
 		<div class="service">
-			<div class="service-icon"><img src="{{ item.icon }}" alt=""></div>
+			<div class="service-icon"><img src="{{ site.baseurl }}{{ item.icon }}" alt=""></div>
 			<h2>{{ item.heading }}</h2>
 			<p>{{ item.description }}</p>
 		</div>
@@ -89,7 +89,7 @@
 		  <ul class="slides">
 		  	{% for partner in page.partners %}
 					<li>
-					  <img src="{{ .partner.logo }}" />
+					  <img src="{{ site.baseurl }}{{ .partner.logo }}" />
 					</li>
 		  	{% endfor %}
 		    <!-- items mirrored twice, total of 12 -->
