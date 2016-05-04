@@ -17,6 +17,7 @@ exclude:
 - vendor
 - vendor
 - vendor
+- vendor
 markdown: redcarpet
 highlighter: pygments
 port: 4000
