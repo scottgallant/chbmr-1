@@ -17,6 +17,10 @@ $(function() {
     window.location = $(this).find('a').attr('href');
   });
 
+  $(".column-list-layout .post").on('click', function(){
+    window.location = $(this).find('a').attr('href');
+  });
+
 // flex slider for homepage logos
 // store the slider in a local variable
   var $window = $(window),
