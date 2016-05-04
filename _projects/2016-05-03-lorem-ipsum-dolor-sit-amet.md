@@ -2,6 +2,7 @@
 title: Lorem ipsum dolor sit amet
 date: '2016-05-03 23:55:00'
 categories: []
+sub-title: ''
 layout: post
 slug: lorem-ipsum-dolor-sit-amet
 tags: []
