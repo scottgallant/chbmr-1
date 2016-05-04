@@ -1,0 +1,24 @@
+---
+layout: default-wide
+---
+<div class="column-list-layout">
+	<div class="pure-g">
+		{% for person in site.people %}
+		<div class="pure-u-1 pure-u-md-1-4">
+			<div class="post">
+				<div class="post-header">
+				{% if person.thumbnail and person.thumbnail != "" %}
+				  <img src="{{ person.thumbnail }}" alt="{{ person.title }}">
+				{% else %}
+					<img src="/images/placeholder.png" alt="{{ person.title }}">
+				{% endif %}
+				</div>
+				<div class="post-body">
+					<h3><a href="{{ person.url }}">{{ person.title }}</a></h3>
+					<p>{{ person.content | slice: 0, 100 }}</p>
+				</div>
+			</div>
+		</div>
+		{% endfor %}
+	</div>
+</div>

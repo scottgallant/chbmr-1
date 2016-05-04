@@ -1,4 +1,5 @@
 ---
+baseurl: "/chbmr"
 collections:
   projects:
     output: true
@@ -6,6 +7,9 @@ collections:
   jobs:
     output: true
     permalink: "/about/jobs/:path/"
+  people:
+    output: true
+    permalink: "/about/staff/:path/"
   posts:
     output: true
     permalink: "/:year/:title/"
@@ -26,7 +30,6 @@ exclude:
 markdown: redcarpet
 highlighter: pygments
 port: 4000
-baseurl: "/chbmr"
 permalink: "/:year/:title/"
 defaults:
 - scope:
