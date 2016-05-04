@@ -15,7 +15,7 @@ layout: default-wide
 				</div>
 				<div class="post-body">
 					<h3><a href="{{ person.url }}">{{ person.title }}</a></h3>
-					<p>{{ person.content | slice: 0, 100 }}</p>
+					<p>{{ person.content | truncatewords: 30 }}</p>
 				</div>
 			</div>
 		</div>
