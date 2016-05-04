@@ -7,7 +7,7 @@
 				<h3>About CHBMR</h3>
 				<ul>
 				{% for item in site.footer-nav-about %}
-				  <li><a href="{{ item.href}}">{{ item.title }}</a></li>
+				  <li><a href="{{ site.baseurl }}{{ item.href}}">{{ item.title }}</a></li>
 				{% endfor %}
 				</ul>
 			</div>
@@ -15,7 +15,7 @@
 				<h3>Projects</h3>
 				<ul>
 				{% for project in site.projects %}
-					<li><a href="{{ project.url }}">{{ project.title }}</a></li>
+					<li><a href="{{ site.baseurl }}{{ project.url }}">{{ project.title }}</a></li>
 				{% endfor %}
 				</ul>
 			</div>
