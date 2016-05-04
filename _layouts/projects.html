@@ -8,9 +8,9 @@ layout: default-wide
 			<div class="card">
 				<div class="card-header">
 				{% if project.thumbnail and project.thumbnail != "" %}
-				  <img src="{{ project.thumbnail }}" alt="{{ project.title }}">
+				  <img src="{{ site.baseurl }}{{ project.thumbnail }}" alt="{{ project.title }}">
 				{% else %}
-					<img src="/images/placeholder.png" alt="{{ project.title }}">
+					<img src="{{ site.baseurl }}/images/placeholder.png" alt="{{ project.title }}">
 				{% endif %}
 				</div>
 				<div class="card-body">
