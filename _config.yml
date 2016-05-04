@@ -1,4 +1,5 @@
 ---
+baseurl: "/chbmr"
 collections:
   projects:
     output: true
