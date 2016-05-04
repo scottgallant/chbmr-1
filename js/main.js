@@ -13,6 +13,10 @@ $(function() {
     timeout: 300
    });
 
+  $(".card").on('click', function(){
+    window.location = $(this).find('a').attr('href');
+  });
+
 // flex slider for homepage logos
 // store the slider in a local variable
   var $window = $(window),
@@ -25,7 +29,7 @@ $(function() {
   }
 
   $(function() {
-    SyntaxHighlighter.all();
+    // SyntaxHighlighter.all();
   });
 
   $window.load(function() {

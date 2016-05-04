@@ -948,6 +948,31 @@ nav ul {
     font-size: 14px;
     color: rgba(30, 64, 93, 0.5); }
 
+.grid-layout .card {
+  margin: 0 1em;
+  border-radius: 3px;
+  background-color: #f7f7f7;
+  margin-bottom: 2em;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  transition: all 0.2s ease-in-out;
+  cursor: pointer;
+  overflow: hidden; }
+  .grid-layout .card:hover {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.15), 0 3px 3px rgba(0, 0, 0, 0.23); }
+  .grid-layout .card .card-header {
+    max-height: 100px;
+    overflow: hidden; }
+  .grid-layout .card .card-body {
+    padding: 10px;
+    box-sizing: border-box;
+    min-height: 160px; }
+    .grid-layout .card .card-body h3 {
+      font-size: 14px; }
+      .grid-layout .card .card-body h3 a {
+        text-decoration: none; }
+    .grid-layout .card .card-body p {
+      font-size: 14px; }
+
 /*!
  *  Font Awesome 4.6.1 by @davegandy - http://fontawesome.io - @fontawesome
  *  License - http://fontawesome.io/license (Font: SIL OFL 1.1, CSS: MIT License)

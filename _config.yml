@@ -30,6 +30,12 @@ defaults:
     path: ''
   values:
     sub-title: ''
+- scope:
+    path: ''
+    type: 'project'
+  values:
+    description: ''
+    thumbnail: ''
 kramdown:
   auto_ids: true
   toc_levels: 1..6

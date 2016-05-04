@@ -1,10 +1,18 @@
 ---
-layout: default
+layout: default-wide
 ---
-{% for project in site.projects %}
-<div class="list-layout">
-  <h2><a href="{{ project.url }}">{{ project.title }}</a></h2>
-  {{ project.excerpt }}
-  <date>{{ project.date | date_to_string }}</date>
+<div class="grid-layout">
+	<div class="pure-g">
+		{% for project in site.projects %}
+		<div class="pure-u-1 pure-u-md-1-4">
+			<div class="card">
+				<div class="card-header"><img src="{{ project.thumbnail }}" alt="{{ project.title }}"></div>
+				<div class="card-body">
+					<h3><a href="{{ project.url }}">{{ project.title }}</a></h3>
+					<p>{{ project.description | slice: 0, 100 }}</p>
+				</div>
+			</div>
+		</div>
+		{% endfor %}
+	</div>
 </div>
-{% endfor %}
