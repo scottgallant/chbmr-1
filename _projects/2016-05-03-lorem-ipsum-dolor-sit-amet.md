@@ -6,7 +6,7 @@ sub-title: ''
 layout: post
 slug: lorem-ipsum-dolor-sit-amet
 tags: []
-draft: true
+draft: false
 
 ---
 ![](/images/tumblr_o67p8zHybu1qzwmsso1_1280.jpg)
