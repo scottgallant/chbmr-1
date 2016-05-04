@@ -3,7 +3,7 @@ layout: default
 ---
 {% for job in site.jobs %}
 <div class="list-layout">
-  <h2><a href="{{ job.url }}">{{ job.title }}</a></h2>
+  <h2><a href="{{ site.baseurl }}{{ job.url }}">{{ job.title }}</a></h2>
   {{ job.excerpt }}
   <date>{{ job.date | date_to_string }}</date>
 </div>
