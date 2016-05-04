@@ -6,7 +6,13 @@ layout: default-wide
 		{% for project in site.projects %}
 		<div class="pure-u-1 pure-u-md-1-4">
 			<div class="card">
-				<div class="card-header"><img src="{{ project.thumbnail }}" alt="{{ project.title }}"></div>
+				<div class="card-header">
+				{% if project.thumbnail and project.thumbnail != "" %}
+				  <img src="{{ project.thumbnail }}" alt="{{ project.title }}">
+				{% else %}
+					<img src="/images/placeholder.png" alt="{{ project.title }}">
+				{% endif %}
+				</div>
 				<div class="card-body">
 					<h3><a href="{{ project.url }}">{{ project.title }}</a></h3>
 					<p>{{ project.description | slice: 0, 100 }}</p>
