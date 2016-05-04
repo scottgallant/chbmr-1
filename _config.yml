@@ -1,5 +1,4 @@
 ---
-baseurl: '/chbrm'
 collections:
   projects:
     output: true
@@ -17,6 +16,7 @@ exclude:
 - node_modules
 - gulpfile.js
 - package.json
+- vendor
 - vendor
 - vendor
 - vendor
