@@ -27,13 +27,16 @@ port: 4000
 baseurl: "/chbmr"
 permalink: "/:year/:title/"
 defaults:
-  - scope:
-      path: ''
+  -
+    scope:
+      path: ""
+      type: ""
     values:
       sub-title: ''
-  - scope:
-      path: ''
-      type: 'project'
+  -
+    scope:
+      path: ""
+      type: "projects"
     values:
       description: ''
       thumbnail: ''
