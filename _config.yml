@@ -1,5 +1,4 @@
 ---
-baseurl: "/chbmr"
 collections:
   projects:
     output: true
@@ -27,9 +26,11 @@ exclude:
 - vendor
 - vendor
 - vendor
+- vendor
 markdown: redcarpet
 highlighter: pygments
 port: 4000
+baseurl: "/chbmr"
 permalink: "/:year/:title/"
 defaults:
 - scope:
@@ -51,7 +52,6 @@ defaults:
     thumbnail: ''
     email: ''
     linkedin: ''
-
 kramdown:
   auto_ids: true
   toc_levels: 1..6
