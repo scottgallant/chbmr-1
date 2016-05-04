@@ -43,6 +43,15 @@ defaults:
   values:
     description: ''
     thumbnail: ''
+- scope:
+    path: ''
+    type: people
+  values:
+    layout: text
+    thumbnail: ''
+    email: ''
+    linkedin: ''
+
 kramdown:
   auto_ids: true
   toc_levels: 1..6
