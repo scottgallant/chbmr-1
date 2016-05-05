@@ -70,7 +70,7 @@
 			<div class="col-wrap">
 				<h2>Latest News</h2>
 				<ul class="posts">
-				  {% for post in site.posts %}
+				  {% for post in site.posts limit:4%}
 				    <li>
 				    	<a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
 				    	<date>{{ post.date | date_to_string }}</date>
