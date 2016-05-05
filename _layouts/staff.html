@@ -15,6 +15,9 @@ layout: default-wide
 				</div>
 				<div class="post-body">
 					<h3><a href="{{ site.baseurl }}{{ person.url }}">{{ person.title }}</a></h3>
+					{% if person.sub-title and page.sub-title != "" %}
+						<div class="subtitle">{{ person.sub-title }}</div>
+					{% endif %}
 					<p>{{ person.content | truncatewords: 30 }}</p>
 				</div>
 			</div>

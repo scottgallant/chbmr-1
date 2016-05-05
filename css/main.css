@@ -998,6 +998,8 @@ nav ul {
       font-size: 14px; }
       .grid-layout .card .card-body h3 a {
         text-decoration: none; }
+    .grid-layout .card .card-body .subtitle {
+      font-size: 12px; }
     .grid-layout .card .card-body p {
       font-size: 14px; }
 
