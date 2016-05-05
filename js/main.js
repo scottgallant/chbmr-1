@@ -1,4 +1,13 @@
+---
+---
 $(function() {
+	$(function(){
+	    var bgimage = new Image();
+	    bgimage.src="{{ site.baseurl }}/images/banner_upei.png"
+	    $(bgimage).load(function(){
+	        $("#banner").css("background-image","url("+$(this).attr("src")+")").css("opacity", "1");
+	     });
+	});
 	function slideDown(){
 		console.log("make tall");
 		$(this).children('ul').slideDown(200);

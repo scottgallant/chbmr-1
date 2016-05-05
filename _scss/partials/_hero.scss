@@ -1,10 +1,11 @@
 #banner {
-	background-image: url("/images/banner.jpg");
 	background-position: 0 0;
 	background-size: cover;
 	height: 28em;
 	text-align: center;
 	position: relative;
+	opacity: 0;
+	transition: all .7s ease;
 }
 
 #banner .call-to-action {
