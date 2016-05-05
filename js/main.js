@@ -1,6 +1,7 @@
 ---
 ---
 $(function() {
+	// fade in hero bg image
 	$(function(){
 	    var bgimage = new Image();
 	    bgimage.src="{{ site.baseurl }}/images/banner_upei.png"
@@ -8,6 +9,8 @@ $(function() {
 	        $("#banner").css("background-image","url("+$(this).attr("src")+")").css("opacity", "1");
 	     });
 	});
+
+	// hover intent on main nav
 	function slideDown(){
 		console.log("make tall");
 		$(this).children('ul').slideDown(200);
@@ -22,10 +25,17 @@ $(function() {
     timeout: 300
    });
 
+	 // prevent the top-level about link from navigating (opens dropdown on hover)
+	$('.nested > a[href="/chbmr/about"], .nested > a[href="/about"]').on('click', function(e){
+		e.preventDefault();
+	});
+
+	// make cards clickable (in grid layout)
   $(".card").on('click', function(){
     window.location = $(this).find('a').attr('href');
   });
 
+	// make people clickable (in grid layout)
   $(".column-list-layout .post").on('click', function(){
     window.location = $(this).find('a').attr('href');
   });
