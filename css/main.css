@@ -970,9 +970,14 @@ nav ul {
     box-sizing: border-box;
     min-height: 160px; }
     .column-list-layout .post .post-body h3 {
-      font-size: 14px; }
+      font-size: 14px;
+      margin-bottom: 5px;
+      text-transform: uppercase; }
       .column-list-layout .post .post-body h3 a {
         text-decoration: none; }
+    .column-list-layout .post .post-body .subtitle {
+      font-size: 12px;
+      font-weight: 500; }
     .column-list-layout .post .post-body p {
       font-size: 14px; }
 
@@ -998,8 +1003,6 @@ nav ul {
       font-size: 14px; }
       .grid-layout .card .card-body h3 a {
         text-decoration: none; }
-    .grid-layout .card .card-body .subtitle {
-      font-size: 12px; }
     .grid-layout .card .card-body p {
       font-size: 14px; }
 
