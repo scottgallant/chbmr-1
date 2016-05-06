@@ -559,7 +559,8 @@ h1, h2, h3, h4, a, p, li {
   color: #888; }
 
 .content img {
-  max-width: 100%; }
+  max-width: 100%;
+  border-radius: 2px; }
 
 .content-narrow {
   max-width: 800px;
