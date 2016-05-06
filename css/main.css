@@ -1006,6 +1006,15 @@ nav ul {
     .grid-layout .card .card-body p {
       font-size: 14px; }
 
+.profile-photo {
+  border-radius: 50%;
+  margin: 1em auto;
+  overflow: hidden;
+  max-width: 200px; }
+  .profile-photo img {
+    display: block;
+    width: 100%; }
+
 /*!
  *  Font Awesome 4.6.1 by @davegandy - http://fontawesome.io - @fontawesome
  *  License - http://fontawesome.io/license (Font: SIL OFL 1.1, CSS: MIT License)
