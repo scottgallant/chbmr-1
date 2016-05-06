@@ -3,7 +3,9 @@ layout: default-wide
 ---
 <div class="column-list-layout">
 	<div class="pure-g">
-		{% for person in site.people %}
+	{% for person in site.people %}
+  {% for tag in person.tags %}
+  {% if tag == 'staff' %}
 		<div class="pure-u-1 pure-u-md-1-4">
 			<div class="post">
 				<div class="post-header">
@@ -22,6 +24,8 @@ layout: default-wide
 				</div>
 			</div>
 		</div>
-		{% endfor %}
+	{% endif %}
+	{% endfor %}
+	{% endfor %}
 	</div>
 </div>
