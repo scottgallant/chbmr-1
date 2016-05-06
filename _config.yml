@@ -1,4 +1,5 @@
 ---
+name: UPEI Centre for Health & Biotech Management Research
 collections:
   projects:
     output: true
@@ -43,7 +44,7 @@ exclude:
 markdown: redcarpet
 highlighter: pygments
 port: 4000
-# baseurl: "/chbmr"
+baseurl: "/chbmr"
 permalink: "/:year/:title/"
 defaults:
 - scope:
@@ -86,6 +87,8 @@ footer-nav-about:
   href: "/about/partners-collaborators"
 - title: Job Postings
   href: "/about/jobs"
+- title: Blog
+  href: "/posts"
 navigation:
 - root: Home
   url: "/"
@@ -110,4 +113,3 @@ navigation:
   url: "/publications"
 - root: Contact Us
   url: "/contact"
-name: UPEI Centre for Health & Biotech Management Research
