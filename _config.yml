@@ -43,6 +43,7 @@ exclude:
 - vendor
 - vendor
 - vendor
+- vendor
 show_drafts: 
 markdown: redcarpet
 highlighter: pygments
