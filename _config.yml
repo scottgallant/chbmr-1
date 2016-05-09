@@ -42,13 +42,13 @@ exclude:
 - vendor
 - vendor
 - vendor
-show_drafts: 
+show_drafts:
 markdown: redcarpet
 highlighter: pygments
 port: 4000
-# baseurl: "/chbmr"
+baseurl: "/chbmr"
 permalink: "/:year/:title/"
-timezone: 
+timezone:
 defaults:
 - scope:
     path: ''
