@@ -46,7 +46,7 @@ show_drafts:
 markdown: redcarpet
 highlighter: pygments
 port: 4000
-baseurl: "/chbmr"
+# baseurl: "/chbmr"
 permalink: "/:year/:title/"
 timezone: 
 defaults:
