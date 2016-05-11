@@ -16,13 +16,14 @@ exclude:
 - node_modules
 - gulpfile.js
 - package.json
+- vendor
 show_drafts: false
 markdown: redcarpet
 highlighter: pygments
 port: 4000
 baseurl: "/chbmr"
 permalink: "/:year/:title/"
-timezone:
+timezone: 
 defaults:
 - scope:
     path: ''
