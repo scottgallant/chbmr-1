@@ -23,7 +23,7 @@ highlighter: pygments
 port: 4000
 baseurl: "/chbmr"
 permalink: "/:year/:title/"
-timezone: 
+timezone:
 defaults:
 - scope:
     path: ''
@@ -36,6 +36,9 @@ defaults:
   values:
     description: ''
     thumbnail: ''
+    sub-title: ''
+    tags: []
+    slug: ''
 - scope:
     path: ''
     type: people
