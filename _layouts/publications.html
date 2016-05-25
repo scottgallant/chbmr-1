@@ -1,0 +1,39 @@
+---
+layout: default-wide
+---
+<div class="table-layout">
+	<div class="pure-g">
+		<div class="search-box">
+			<form action="">
+				<input type="text" class="search">
+				<span class="icon icon-search"></span>
+			</form>
+		</div>
+		{% for publication in site.publications %}
+		<div class="pure-u-1">
+			<table>
+				<thead>
+					<tr>
+						<th>Name</th>
+						<th>Date</th>
+						<th>Author</th>
+						<th>Project</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td><a href="{{ site.baseurl }}{{ publication.url }}">{{ publication.title | slice: 0, 40 }}</a></td>
+						<td><date>{{ publication.date | date_to_string }}</date></td>
+						<td>{{ publication.author }}</td>
+						<td>
+							{% for project in publication.project %}
+								{{ project }}
+							{% endfor %}
+						</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+		{% endfor %}
+	</div>
+</div>
