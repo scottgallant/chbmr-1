@@ -1024,6 +1024,45 @@ nav ul {
     display: block;
     width: 100%; }
 
+.search-box {
+  position: relative;
+  float: right; }
+  .search-box input {
+    border: 1px solid #4e8fc6;
+    border-radius: 20px;
+    width: 100%;
+    width: 300px;
+    margin: 10px 0;
+    float: right;
+    padding: 5px 35px 5px 20px; }
+  .search-box .icon-search:after {
+    font-family: FontAwesome;
+    content: "\f002";
+    font-style: normal;
+    font-weight: normal;
+    speak: none;
+    display: inline-block;
+    text-decoration: inherit;
+    text-align: center;
+    font-variant: normal;
+    text-transform: none;
+    color: #1e405d;
+    right: 8px;
+    top: 5px;
+    position: absolute;
+    font-size: 20px; }
+
+.table-layout table {
+  border-radius: 10px;
+  overflow: hidden;
+  text-align: left;
+  border: 1px solid blue;
+  width: 100%; }
+  .table-layout table thead {
+    background: #f4f4f4; }
+  .table-layout table td, .table-layout table th {
+    padding: 10px; }
+
 /*!
  *  Font Awesome 4.6.1 by @davegandy - http://fontawesome.io - @fontawesome
  *  License - http://fontawesome.io/license (Font: SIL OFL 1.1, CSS: MIT License)

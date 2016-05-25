@@ -9,6 +9,9 @@ collections:
   people:
     output: true
     permalink: "/about/people/:path/"
+  publications:
+    output: true
+    permalink: "/publications/:path/"
   posts:
     output: true
     permalink: "/:year/:title/"
