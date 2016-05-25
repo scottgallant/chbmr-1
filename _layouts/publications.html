@@ -9,7 +9,6 @@ layout: default-wide
 				<span class="icon icon-search"></span>
 			</form>
 		</div>
-		{% for publication in site.publications %}
 		<div class="pure-u-1">
 			<table>
 				<thead>
@@ -21,6 +20,7 @@ layout: default-wide
 					</tr>
 				</thead>
 				<tbody>
+					{% for publication in site.publications %}
 					<tr>
 						<td><a href="{{ site.baseurl }}{{ publication.url }}">{{ publication.title | slice: 0, 40 }}</a></td>
 						<td><date>{{ publication.date | date_to_string }}</date></td>
@@ -31,9 +31,9 @@ layout: default-wide
 							{% endfor %}
 						</td>
 					</tr>
+					{% endfor %}
 				</tbody>
 			</table>
 		</div>
-		{% endfor %}
 	</div>
 </div>
