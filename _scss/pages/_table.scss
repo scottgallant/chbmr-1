@@ -56,19 +56,29 @@
 
     thead {
       background: #f4f4f4;
+
+			th {
+				.fa-chevron-down {
+					font-size: 9px;
+					vertical-align: middle;
+				}
+				&:hover {
+					background: #e2e2e2;
+				}
+			}
     }
 
     td,th {
       padding: 16px;
     }
 
-	tr {
-	    border-bottom: 1px solid #eee;
+		tr {
+		  border-bottom: 1px solid #eee;
 
 			td {
 				padding: 15px;
 			}
-	}
+		}
 
 
 //

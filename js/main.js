@@ -79,4 +79,11 @@ $(function() {
     flexslider.vars.minItems = gridSize;
     flexslider.vars.maxItems = gridSize;
   });
+
+	$(document).ready(function()
+	  {
+	      $("#publications").tablesorter(); 
+	  }
+	);
+
 });

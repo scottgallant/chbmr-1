@@ -1067,6 +1067,11 @@ nav ul {
   width: 100%; }
   .table-layout table thead {
     background: #f4f4f4; }
+    .table-layout table thead th .fa-chevron-down {
+      font-size: 9px;
+      vertical-align: middle; }
+    .table-layout table thead th:hover {
+      background: #e2e2e2; }
   .table-layout table td, .table-layout table th {
     padding: 16px; }
   .table-layout table tr {
