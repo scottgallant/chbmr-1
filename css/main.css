@@ -1067,17 +1067,36 @@ nav ul {
   width: 100%; }
   .table-layout table thead {
     background: #f4f4f4; }
-    .table-layout table thead th .fa-chevron-down {
-      font-size: 9px;
-      vertical-align: middle; }
-    .table-layout table thead th:hover {
-      background: #e2e2e2; }
+    .table-layout table thead th {
+      color: #1e405d; }
+      .table-layout table thead th .fa:after {
+        content: "\f107";
+        font-size: 12px;
+        vertical-align: middle; }
+      .table-layout table thead th.headerSortDown .fa:after {
+        content: "\f106"; }
+      .table-layout table thead th:hover {
+        background: #e2e2e2; }
   .table-layout table td, .table-layout table th {
     padding: 16px; }
   .table-layout table tr {
     border-bottom: 1px solid #eee; }
     .table-layout table tr td {
-      padding: 15px; }
+      padding: 15px;
+      font-size: 14px;
+      color: rgba(30, 64, 93, 0.5); }
+      .table-layout table tr td a {
+        text-decoration: none;
+        font-weight: 700;
+        color: #1e405d; }
+        .table-layout table tr td a:hover {
+          text-decoration: underline; }
+      .table-layout table tr td:first-child {
+        font-size: 16px; }
+  .table-layout table tbody tr:hover {
+    background: rgba(30, 64, 93, 0.03); }
+    .table-layout table tbody tr:hover a {
+      text-decoration: underline; }
 
 /*!
  *  Font Awesome 4.6.1 by @davegandy - http://fontawesome.io - @fontawesome

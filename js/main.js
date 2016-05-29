@@ -82,8 +82,13 @@ $(function() {
 
 	$(document).ready(function()
 	  {
-	      $("#publications").tablesorter(); 
+	      $("#publications").tablesorter();
 	  }
 	);
+
+	// make table rows clickable
+  $(".data-table tr").on('click', function(){
+    window.location = $(this).find('a').attr('href');
+  });
 
 });

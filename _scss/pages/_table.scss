@@ -58,10 +58,20 @@
       background: #f4f4f4;
 
 			th {
-				.fa-chevron-down {
-					font-size: 9px;
+				color: $font-special;
+
+				.fa:after {
+					content: "\f107";
+					font-size: 12px;
 					vertical-align: middle;
 				}
+
+				&.headerSortDown {
+					.fa:after {
+						content: "\f106";
+					}
+				}
+
 				&:hover {
 					background: #e2e2e2;
 				}
@@ -77,6 +87,31 @@
 
 			td {
 				padding: 15px;
+				font-size: 14px;
+				color: rgba($font-special, 0.5);
+
+				a {
+					text-decoration: none;
+					font-weight: 700;
+					color: $font-special;
+
+
+					&:hover {
+						text-decoration: underline;
+					}
+				}
+
+				&:first-child {
+					font-size: 16px;
+				}
+			}
+		}
+
+		tbody tr:hover {
+			background: rgba($font-special, 0.03);
+
+			a {
+				text-decoration: underline;
 			}
 		}
 
