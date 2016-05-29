@@ -59,3 +59,13 @@ h1, h2, h3, h4, a, p, li {
 		opacity: 0;
 	}
 }
+
+::-moz-placeholder {}
+:-ms-input-placeholder {}
+::-webkit-input-placeholder {}
+
+input:focus {
+	&::-moz-placeholder {}
+	&:-ms-input-placeholder {}
+	&::-webkit-input-placeholder {}
+}

@@ -51,10 +51,15 @@ $(function() {
            (window.innerWidth < 900) ? 3 : 4;
   }
 
-  $(function() {
-    // SyntaxHighlighter.all();
-  });
+	// search on focus
+	$("input.search").on('focus', function(){
+		$(this).siblings('.icon-search').addClass('focus');
+	});
+	$("input.search").on('blur', function(){
+		$(this).siblings('.icon-search').removeClass('focus');
+	});
 
+	// flexslider
   $window.load(function() {
     $('.flexslider').flexslider({
       animation: "slide",

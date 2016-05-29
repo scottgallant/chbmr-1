@@ -1024,18 +1024,21 @@ nav ul {
     display: block;
     width: 100%; }
 
-.search-box {
+.search-form {
   position: relative;
   float: right; }
-  .search-box input {
-    border: 1px solid #4e8fc6;
+  .search-form input {
+    border: 1px solid rgba(30, 64, 93, 0.3);
     border-radius: 20px;
     width: 100%;
-    width: 300px;
-    margin: 10px 0;
-    float: right;
-    padding: 5px 35px 5px 20px; }
-  .search-box .icon-search:after {
+    width: 260px;
+    margin: 0 0 10px 0;
+    padding: 5px 35px 5px 20px;
+    line-height: 1.5em;
+    font-size: 14px; }
+    .search-form input:focus {
+      border-color: rgba(30, 64, 93, 0.6); }
+  .search-form .icon-search:after {
     font-family: FontAwesome;
     content: "\f002";
     font-style: normal;
@@ -1047,21 +1050,29 @@ nav ul {
     font-variant: normal;
     text-transform: none;
     color: #1e405d;
-    right: 8px;
-    top: 5px;
+    right: 10px;
+    top: 4px;
     position: absolute;
-    font-size: 20px; }
+    font-size: 20px;
+    color: rgba(30, 64, 93, 0.5); }
+  .search-form .icon-search.focus:after {
+    color: rgba(30, 64, 93, 0.8); }
 
 .table-layout table {
-  border-radius: 10px;
+  border-radius: 3px;
   overflow: hidden;
   text-align: left;
-  border: 1px solid blue;
+  border: 1px solid #eee;
+  border-collapse: initial;
   width: 100%; }
   .table-layout table thead {
     background: #f4f4f4; }
   .table-layout table td, .table-layout table th {
-    padding: 10px; }
+    padding: 16px; }
+  .table-layout table tr {
+    border-bottom: 1px solid #eee; }
+    .table-layout table tr td {
+      padding: 15px; }
 
 /*!
  *  Font Awesome 4.6.1 by @davegandy - http://fontawesome.io - @fontawesome

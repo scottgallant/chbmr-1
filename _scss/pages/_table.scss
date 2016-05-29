@@ -1,17 +1,22 @@
 
 // Search box
-.search-box {
+.search-form {
 	position: relative;
   float: right;
 
 	input {
-		border:  1px solid lighten($font-special, 30%);
-		border-radius: 20px;
-		width: 100%;
-		width: 300px;
-		margin: 10px 0;
-		float: right;
-		padding: 5px 35px 5px 20px;
+		border:  1px solid rgba($font-special, .3);
+    border-radius: 20px;
+    width: 100%;
+    width: 260px;
+    margin: 0 0 10px 0;
+    padding: 5px 35px 5px 20px;
+    line-height: 1.5em;
+    font-size: 14px;
+
+		&:focus {
+			border-color: rgba($font-special, .6);
+		}
 	}
 
 	.icon-search {
@@ -27,20 +32,26 @@
 			font-variant: normal;
 			text-transform: none;
 			color: #1e405d;
-			right: 8px;
-		  top: 5px;
+			right: 10px;
+		  top: 4px;
 			position: absolute;
 			font-size: 20px;
+			color: rgba($font-special, .5);
+		}
+
+		&.focus:after {
+			color: rgba($font-special, .8);
 		}
 	}
 }
 
 .table-layout {
   table {
-    border-radius: 10px;
+    border-radius: 3px;
     overflow: hidden;
     text-align: left;
-    border: 1px solid blue;
+    border: 1px solid #eee;
+		border-collapse: initial;
     width: 100%;
 
     thead {
@@ -48,8 +59,26 @@
     }
 
     td,th {
-      padding: 10px;
+      padding: 16px;
     }
+
+	tr {
+	    border-bottom: 1px solid #eee;
+
+			td {
+				padding: 15px;
+			}
+	}
+
+
+//
+// td {
+//     border-left: 1px solid #000;
+// }
+//
+// td + td {
+//     border-left: 1px solid red;
+// }
   }
 
 }

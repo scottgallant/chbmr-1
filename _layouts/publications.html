@@ -1,39 +1,35 @@
 ---
-layout: default-wide
+layout: default
 ---
 <div class="table-layout">
-	<div class="pure-g">
-		<div class="search-box">
-			<form action="">
-				<input type="text" class="search">
-				<span class="icon icon-search"></span>
-			</form>
-		</div>
-		<div class="pure-u-1">
-			<table>
-				<thead>
-					<tr>
-						<th>Name</th>
-						<th>Date</th>
-						<th>Author</th>
-						<th>Project</th>
-					</tr>
-				</thead>
-				<tbody>
-					{% for publication in site.publications %}
-					<tr>
-						<td><a href="{{ site.baseurl }}{{ publication.url }}">{{ publication.title | slice: 0, 40 }}</a></td>
-						<td><date>{{ publication.date | date_to_string }}</date></td>
-						<td>{{ publication.author }}</td>
-						<td>
-							{% for project in publication.project %}
-								{{ project }}
-							{% endfor %}
-						</td>
-					</tr>
-					{% endfor %}
-				</tbody>
-			</table>
-		</div>
+	<form action="" class="search-form">
+		<input type="text" class="search" placeholder="Search">
+		<span class="icon icon-search"></span>
+	</form>
+	<div class="">
+		<table>
+			<thead>
+				<tr>
+					<th>Name</th>
+					<th>Date</th>
+					<th>Author</th>
+					<th>Project</th>
+				</tr>
+			</thead>
+			<tbody>
+				{% for publication in site.publications %}
+				<tr>
+					<td><a href="{{ site.baseurl }}{{ publication.url }}">{{ publication.title | slice: 0, 40 }}</a></td>
+					<td><date>{{ publication.date | date_to_string }}</date></td>
+					<td>{{ publication.author }}</td>
+					<td>
+						{% for project in publication.project %}
+							{{ project }}
+						{% endfor %}
+					</td>
+				</tr>
+				{% endfor %}
+			</tbody>
+		</table>
 	</div>
 </div>
