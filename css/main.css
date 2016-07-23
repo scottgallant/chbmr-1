@@ -1076,7 +1076,7 @@ nav ul {
       .table-layout table thead th.headerSortDown .fa:after {
         content: "\f106"; }
       .table-layout table thead th:hover {
-        background: #e2e2e2; }
+        background: #eee; }
   .table-layout table td, .table-layout table th {
     padding: 16px; }
   .table-layout table tr {
