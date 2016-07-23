@@ -3,7 +3,7 @@
 	padding-top: 10px;
 	margin: 0 auto;
 	background-color: white;
-	border-bottom: 1px solid rgba($brand-color, 0.8);
+	border-bottom: 1px solid rgba($brand-color, 0.2);
 	box-sizing: border-box;
 	overflow: visible;
 }
@@ -30,26 +30,6 @@
 	    }
 	}
 }
-
-// .header {
-// 	margin: 0;
-// 	color: #333;
-// 	text-align: center;
-// 	padding: 2.5em 2em 0;
-
-// 	h1 {
-// 		margin: 0.3em 0;
-// 		font-size: 3em;
-// 		font-weight: 300;
-// 	}
-
-// 	h2 {
-// 		font-weight: 300;
-// 		color: #ccc;
-// 		padding: 0;
-// 		margin-top: 0;
-// 	}
-// }
 
 .plain-header {
 	background: #f4f4f4;
@@ -80,6 +60,12 @@
 	img {
 		max-width: 100%;
 		border-radius: 2px;
+	}
+
+	ul {
+		li {
+			margin-bottom: 10px;
+		}
 	}
 }
 
