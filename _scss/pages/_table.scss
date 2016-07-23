@@ -1,6 +1,6 @@
 
 // Search box
-.search-form {
+.dataTables_filter {
 	position: relative;
   float: right;
 
@@ -19,7 +19,7 @@
 		}
 	}
 
-	.icon-search {
+	label {
 		&:after {
 			font-family: FontAwesome;
 			content: "\f002";
