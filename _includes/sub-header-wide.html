@@ -4,7 +4,7 @@
 {% assign crumbs = page.url | split: '/' %}
 
 <ul>
-    <li><a href="/">Home</a> <i class="fa fa-chevron-right"></i></li>
+    <li><a href="{{ site.baseurl }}/">Home</a> <i class="fa fa-chevron-right"></i></li>
     {% for crumb in crumbs offset: 1 %}
         {% if forloop.last %}
             <li class="active">{{ page.title }}</li>
