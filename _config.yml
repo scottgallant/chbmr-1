@@ -25,7 +25,7 @@ markdown: redcarpet
 highlighter: pygments
 port: 4000
 url: "https://jpatters.github.io"
-baseurl: "/chbmr"
+# baseurl: "/chbmr"
 permalink: "/:year/:title/"
 timezone:
 defaults:
