@@ -1024,10 +1024,10 @@ nav ul {
     display: block;
     width: 100%; }
 
-.search-form {
+.dataTables_filter {
   position: relative;
   float: right; }
-  .search-form input {
+  .dataTables_filter input {
     border: 1px solid rgba(30, 64, 93, 0.3);
     border-radius: 20px;
     width: 100%;
@@ -1036,9 +1036,9 @@ nav ul {
     padding: 5px 35px 5px 20px;
     line-height: 1.5em;
     font-size: 14px; }
-    .search-form input:focus {
+    .dataTables_filter input:focus {
       border-color: rgba(30, 64, 93, 0.6); }
-  .search-form .icon-search:after {
+  .dataTables_filter label:after {
     font-family: FontAwesome;
     content: "\f002";
     font-style: normal;
@@ -1055,7 +1055,7 @@ nav ul {
     position: absolute;
     font-size: 20px;
     color: rgba(30, 64, 93, 0.5); }
-  .search-form .icon-search.focus:after {
+  .dataTables_filter label.focus:after {
     color: rgba(30, 64, 93, 0.8); }
 
 .table-layout table {

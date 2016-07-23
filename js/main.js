@@ -91,4 +91,16 @@ $(function() {
     window.location = $(this).find('a').attr('href');
   });
 
+  $('#publications').DataTable({
+    lengthChange: false,
+    info: false,
+    language: {
+      searchPlaceholder: "Search",
+      search: "",
+      paginate: {
+        previous: '<i class="fa fa-chevron-left"></i>',
+        next:     '<i class="fa fa-chevron-right"></i>'
+      }
+    }
+  });
 });
