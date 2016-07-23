@@ -1097,7 +1097,8 @@ nav ul {
       .table-layout table tr td:first-child {
         font-size: 16px; }
   .table-layout table tbody tr:hover {
-    background: rgba(30, 64, 93, 0.03); }
+    background: rgba(30, 64, 93, 0.03);
+    cursor: pointer; }
     .table-layout table tbody tr:hover a {
       text-decoration: underline; }
 

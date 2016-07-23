@@ -45,6 +45,16 @@ defaults:
     slug: ''
 - scope:
     path: ''
+    type: publications
+  values:
+    project:
+    - jekyll
+    - update
+    layout: text
+    link: ''
+    PDF: ''
+- scope:
+    path: ''
     type: jobs
   values:
     link: ''

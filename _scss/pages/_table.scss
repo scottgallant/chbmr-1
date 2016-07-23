@@ -109,6 +109,7 @@
 
 		tbody tr:hover {
 			background: rgba($font-special, 0.03);
+			cursor: pointer;
 
 			a {
 				text-decoration: underline;
