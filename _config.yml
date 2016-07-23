@@ -45,6 +45,11 @@ defaults:
     slug: ''
 - scope:
     path: ''
+    type: jobs
+  values:
+    link: ''
+- scope:
+    path: ''
     type: people
   values:
     layout: person
