@@ -80,14 +80,8 @@ $(function() {
     flexslider.vars.maxItems = gridSize;
   });
 
-	$(document).ready(function()
-	  {
-	      $("#publications").tablesorter();
-	  }
-	);
-
 	// make table rows clickable
-  $(".data-table tr").on('click', function(){
+  $(".data-table tbody tr").on('click', function(){
     window.location = $(this).find('a').attr('href');
   });
 
