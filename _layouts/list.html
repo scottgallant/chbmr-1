@@ -5,7 +5,12 @@ layout: default
 {% if site.jobs.size > 0 %}
   {% for job in site.jobs %}
   <div class="list-layout">
-    <h2><a href="job.link" target="_new">{{ job.title }}</a></h2>
+    <h2>{% if job.link and job.link != "" %}
+      <a href="{{ job.link }}" target="_new">{{ job.title }}</a>
+    {% else %}
+      {{ job.title }}
+    {% endif %}
+    </h2>
     <div>{{ job.content | truncatewords: 30 }}</div>
     <date>{{ job.date | date_to_string }}</date>
   </div>
