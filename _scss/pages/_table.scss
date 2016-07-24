@@ -115,16 +115,26 @@
 				text-decoration: underline;
 			}
 		}
-
-
-//
-// td {
-//     border-left: 1px solid #000;
-// }
-//
-// td + td {
-//     border-left: 1px solid red;
-// }
   }
+}
 
+.dataTables_paginate  {
+	margin-top: 2em;
+}
+
+.paginate_button {
+	display: inline-block;
+	padding: 5px 10px;
+
+	&:hover {
+		cursor: pointer;
+	}
+
+	&.current {
+		background: lighten(#30343F, 75%);
+	}
+
+	&.next, &.previous {
+		color: lighten(#30343F, 25%);
+	}
 }

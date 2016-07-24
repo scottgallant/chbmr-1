@@ -1125,6 +1125,19 @@ nav ul {
     .table-layout table tbody tr:hover a {
       text-decoration: underline; }
 
+.dataTables_paginate {
+  margin-top: 2em; }
+
+.paginate_button {
+  display: inline-block;
+  padding: 5px 10px; }
+  .paginate_button:hover {
+    cursor: pointer; }
+  .paginate_button.current {
+    background: #f6f6f8; }
+  .paginate_button.next, .paginate_button.previous {
+    color: #677087; }
+
 .posts-list {
   list-style-type: none;
   padding: 0; }
