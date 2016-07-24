@@ -1,13 +1,11 @@
 ---
 title: test
-date: '2016-07-23 22:43:00'
+date: '2016-07-23 22:53:39'
 project:
 - jekyll
+- update
 layout: text
 author: ''
-link: https://google.com
+link: ''
 PDF: ''
 ---
-Nullam id dolor id nibh ultricies vehicula ut id elit. Nulla vitae elit libero, a pharetra augue. Cras mattis consectetur purus sit amet fermentum. Etiam porta sem malesuada magna mollis euismod.
-
-Donec ullamcorper nulla non metus auctor fringilla. Donec sed odio dui. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Nullam quis risus eget urna mollis ornare vel eu leo.
