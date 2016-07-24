@@ -864,6 +864,29 @@ nav ul {
     color: white;
     border-color: #8b2004; }
 
+.meta {
+  overflow: hidden; }
+  .meta .post-date {
+    float: left;
+    margin-right: 10px;
+    font-size: 12px; }
+  .meta .meta-separator {
+    float: left;
+    margin-right: 10px; }
+  .meta .tags-list {
+    float: left;
+    list-style-type: none;
+    padding: 0;
+    margin: 0; }
+    .meta .tags-list li {
+      float: left;
+      margin-right: 10px; }
+      .meta .tags-list li a {
+        font-size: 12px;
+        text-decoration: none;
+        display: block;
+        text-transform: capitalize; }
+
 .main-message {
   text-align: center;
   padding: 30px 0;
@@ -1101,6 +1124,15 @@ nav ul {
     cursor: pointer; }
     .table-layout table tbody tr:hover a {
       text-decoration: underline; }
+
+.posts-list {
+  list-style-type: none;
+  padding: 0; }
+  .posts-list li {
+    margin-bottom: 10px; }
+    .posts-list li a {
+      text-decoration: none;
+      font-weight: 500; }
 
 /*!
  *  Font Awesome 4.6.1 by @davegandy - http://fontawesome.io - @fontawesome
