@@ -6,7 +6,7 @@ thumbnail: ''
 sub-title: SPOR and MSSU PEI
 tags: []
 slug: ''
-layout: projects
+layout: text
 ---
 **SPOR and MSSU PEI**
 
