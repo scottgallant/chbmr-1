@@ -34,8 +34,7 @@ show_drafts: false
 markdown: redcarpet
 highlighter: pygments
 port: 4000
-url: "https://jpatters.github.io"
-baseurl: "/chbmr"
+url: "https://chcresearch.ca"
 permalink: "/:year/:title/"
 timezone:
 defaults:
