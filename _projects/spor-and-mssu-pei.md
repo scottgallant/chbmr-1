@@ -9,7 +9,7 @@ tags: []
 slug: ''
 layout: text
 ---
-**SPOR and MSSU PEI**
+# SPOR and MSSU PEI
 
 The CHCR is proud to be a part of a Maritime SPOR SUPPORT Unit (MSSU), a specialized, multidisciplinary research service centre that aims to provide the necessary and often highly specialized methodological expertise to those engaged in patient-orientated research. The goal of the MSSU is to efficiently use scarce resources so that stakeholders can better address critical health issues in patient-orientated and health services research.
 
