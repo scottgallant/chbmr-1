@@ -1,8 +1,10 @@
+---
+---
 $(function() {
 	// fade in hero bg image
 	$(function(){
 	    var bgimage = new Image();
-	    bgimage.src="/images/banner_upei.png"
+	    bgimage.src="{{ site.baseurl }}/images/banner_upei.png"
 	    $(bgimage).load(function(){
 	        $("#banner").css("background-image","url("+$(this).attr("src")+")").css("opacity", "1");
 	     });
