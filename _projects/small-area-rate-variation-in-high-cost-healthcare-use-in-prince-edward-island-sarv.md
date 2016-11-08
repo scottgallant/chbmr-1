@@ -6,7 +6,8 @@ description: 'Small Area Rate Variation in High-cost Healthcare Use in Prince Ed
 thumbnail: forestryio/images/shutterstock_109465880.jpg
 sub-title: 'Small Area Rate Variation in High-cost Healthcare Use in Prince Edward
   Island '
-tags: []
+tags:
+- Health
 slug: ''
 layout: text
 ---
