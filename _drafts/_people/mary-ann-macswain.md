@@ -4,7 +4,8 @@ date: '2016-11-08 14:32:48'
 layout: person
 sub-title: Data Analyst
 thumbnail: forestryio/images/MacSwain+Mary-Ann.jpg
-tags (staff, board, advisor, partner): []
+tags (staff, board, advisor, partner):
+- staff
 email: mmmacswain@upei.ca
 linkedin: ''
 ---
