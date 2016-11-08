@@ -3,7 +3,7 @@ title: SPOR and MSSU PEI
 date: '2016-08-02 00:00:00'
 description: Strategies for Patient Orientated Research and Maritime SPOR SUPPORT
   Unit PEI
-thumbnail: forestryio/images/logo+MSSU+SPOR-1.png
+thumbnail: forestryio/images/logo%20MSSU%20SPOR-1-1.png
 sub-title: SPOR and MSSU PEI
 tags:
 - Health
