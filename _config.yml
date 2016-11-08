@@ -93,7 +93,7 @@ kramdown:
   input: GFM
   hard_wrap: false
   footnote_nr: '1'
-name: UPEI Centre for Health & Biotech Management Research
+name: The Centre for Health and Community Research
 footer-nav-about:
 - title: About Us
   href: "/about"
