@@ -11,7 +11,7 @@ layout: default-wide
 			<div class="post">
 				<div class="post-header">
 				{% if person.thumbnail and person.thumbnail != "" %}
-				  <img src="{{ site.baseurl }}{{ person.thumbnail }}" alt="{{ person.title }}">
+				  <img src="{{ site.baseurl }}/{{ person.thumbnail }}" alt="{{ person.title }}">
 				{% else %}
 					<img src="{{ site.baseurl }}/images/placeholder.png" alt="{{ person.title }}">
 				{% endif %}
@@ -39,7 +39,7 @@ layout: default-wide
 			<div class="post">
 				<div class="post-header">
 				{% if person.thumbnail and person.thumbnail != "" %}
-				  <img src="{{ site.baseurl }}{{ person.thumbnail }}" alt="{{ person.title }}">
+				  <img src="{{ site.baseurl }}/{{ person.thumbnail }}" alt="{{ person.title }}">
 				{% else %}
 					<img src="{{ site.baseurl }}/images/placeholder.png" alt="{{ person.title }}">
 				{% endif %}
