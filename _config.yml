@@ -121,7 +121,7 @@ navigation:
     url: "/about/staff"
   - text: Board
     url: "/about/board"
-  - text: SPORE/MSSU
+  - text: SPOR/MSSU
     url: "/about/spore-mssu"
   - text: Partners Collaborators
     url: "/about/partners-collaborators"
