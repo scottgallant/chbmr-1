@@ -2,7 +2,7 @@
 layout: person
 sub-title: ''
 thumbnail: ''
-tags (staff, board, advisor, partner): []
+tags (staff, board, advisor, partner): 
 email: ''
 linkedin: ''
 title: Test
