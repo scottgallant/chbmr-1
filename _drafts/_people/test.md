@@ -2,7 +2,7 @@
 layout: person
 sub-title: ''
 thumbnail: assets/images/windows_95_1.jpg
-tags (staff, board, advisor, partner): 
+tags: 
 email: ''
 linkedin: ''
 title: Test

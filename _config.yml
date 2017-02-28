@@ -81,7 +81,7 @@ defaults:
     layout: person
     sub-title: ''
     thumbnail: ''
-    tags (staff, board, advisor, partner): []
+    tags: []
     email: ''
     linkedin: ''
 kramdown:
