@@ -3,7 +3,7 @@ title: Mary-Ann MacSwain
 date: 2016-11-08 00:00
 layout: person
 sub-title: Data Analyst
-thumbnail: "/assets/images/MacSwain-Mary-Ann-1.jpg"
+thumbnail: assets/images/MacSwain-Mary-Ann-1-1.jpg
 tags (staff, board, advisor, partner):
 - staff
 email: mmmacswain@upei.ca
