@@ -33,7 +33,6 @@ exclude:
 - vendor
 show_drafts: false
 markdown: redcarpet
-highlighter: pygments
 port: 4000
 url: "https://chcresearch.ca"
 permalink: "/:year/:title/"
