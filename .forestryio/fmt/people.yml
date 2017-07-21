@@ -1,0 +1,46 @@
+---
+- name: title
+  type: ''
+  label: Title
+  config:
+    required: true
+- name: layout
+  default: person
+  label: Layout
+  type: ''
+  hidden: true
+- name: sub-title
+  default: ''
+  label: Sub title
+  type: ''
+  hidden: false
+- name: thumbnail
+  default: ''
+  label: Profile Picture
+  type: ''
+  hidden: false
+- name: tags
+  default: 
+  label: Relationship
+  type: ''
+  hidden: false
+  description: staff, board, advisor, partner
+  config:
+    source:
+      type: simple
+    options:
+    - staff
+    - board
+    - advisor
+    - partner
+- name: email
+  default: ''
+  label: Email
+  type: ''
+  hidden: false
+- name: linkedin
+  default: ''
+  label: Linkedin
+  type: ''
+  hidden: false
+  config: {}

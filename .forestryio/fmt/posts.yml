@@ -1,0 +1,7 @@
+---
+- name: tags
+  default:
+  - something
+  label: Tags
+  type: ''
+  hidden: false

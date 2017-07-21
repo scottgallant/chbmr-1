@@ -1,0 +1,26 @@
+---
+- name: description
+  default: ''
+  label: Description
+  type: ''
+  hidden: false
+- name: thumbnail
+  default: ''
+  label: Thumbnail
+  type: ''
+  hidden: false
+- name: sub-title
+  default: ''
+  label: Sub title
+  type: ''
+  hidden: false
+- name: tags
+  default: []
+  label: Tags
+  type: ''
+  hidden: false
+- name: slug
+  default: ''
+  label: Slug
+  type: ''
+  hidden: false

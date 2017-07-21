@@ -1,0 +1,115 @@
+---
+- name: title
+  default: CBT4CBT
+  label: Title
+  type: ''
+  hidden: false
+- name: date
+  default: '2016-04-20T00:00:00+00:00'
+  label: Date
+  type: ''
+  hidden: false
+- name: categories
+  default: []
+  label: Categories
+  type: ''
+  hidden: false
+- name: description
+  default: 'Computer-Based Training for Cogntive Behavioural Therapy: An Addictions
+    Program for Canada'
+  label: Description
+  type: ''
+  hidden: false
+- name: thumbnail
+  default: assets/images/cbt4cbt logo - long.jpg
+  label: Thumbnail
+  type: ''
+  hidden: false
+- name: sub-title
+  default: Computer-Based Training for Cognitive Behavioral Therapy
+  label: Sub title
+  type: ''
+  hidden: false
+- name: tags
+  default:
+  - health
+  label: Tags
+  type: ''
+  hidden: false
+- name: slug
+  default: CBT4CBT
+  label: Slug
+  type: ''
+  hidden: false
+- name: layout
+  default: text
+  label: Layout
+  type: ''
+  hidden: false
+- name: tags (staff, board, advisor, partner)
+  default:
+  - board
+  - staff
+  - advisor
+  label: Tags (staff, board, advisor, partner)
+  type: ''
+  hidden: false
+- name: email
+  default: jukrause@upei.ca
+  label: Email
+  type: ''
+  hidden: false
+- name: linkedin
+  default: www.linkedin.com/pub/juergen-krause/a/b58/8b1
+  label: Linkedin
+  type: ''
+  hidden: false
+- name: draft
+  default: false
+  label: Draft
+  type: ''
+  hidden: false
+- name: services
+  default:
+  - heading: Heatlh
+    description: Performing collaborative research and providing services to support
+      the Canadian Health Sector.
+    icon: "/images/health.png"
+  - heading: BioTech
+    description: Performing collaborative research and providing services to support
+      the biotechnology sector.
+    icon: "/images/biotech.png"
+  label: Services
+  type: ''
+  fields:
+  - name: heading
+    default: Heatlh
+    label: Heading
+    type: ''
+    hidden: false
+  - name: description
+    default: Performing collaborative research and providing services to support the
+      Canadian Health Sector.
+    label: Description
+    type: ''
+    hidden: false
+  - name: icon
+    default: "/images/health.png"
+    label: Icon
+    type: ''
+    hidden: false
+  hidden: false
+- name: partners
+  default:
+  - logo: "/images/innovation-pei-logo.png"
+  - logo: "/images/iwk-logo.png"
+  - logo: "/images/dal-logo.png"
+  label: Partners
+  type: ''
+  fields:
+  - name: logo
+    default: "/images/innovation-pei-logo.png"
+    label: Logo
+    type: ''
+    hidden: false
+  hidden: false

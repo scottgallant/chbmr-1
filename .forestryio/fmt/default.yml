@@ -1,0 +1,6 @@
+---
+- name: sub-title
+  default: ''
+  label: Sub title
+  type: ''
+  hidden: false

@@ -1,0 +1,28 @@
+---
+- name: project
+  default:
+  - jekyll
+  - update
+  label: Project
+  type: ''
+  hidden: false
+- name: layout
+  default: text
+  label: Layout
+  type: ''
+  hidden: false
+- name: author
+  default: ''
+  label: Author
+  type: ''
+  hidden: false
+- name: link
+  default: ''
+  label: Link
+  type: ''
+  hidden: false
+- name: PDF
+  default: ''
+  label: Pdf
+  type: ''
+  hidden: false
