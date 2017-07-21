@@ -2,25 +2,25 @@
 - name: description
   default: ''
   label: Description
-  type: ''
+  type: text
   hidden: false
 - name: thumbnail
   default: ''
   label: Thumbnail
-  type: ''
+  type: text
   hidden: false
 - name: sub-title
   default: ''
   label: Sub title
-  type: ''
+  type: text
   hidden: false
 - name: tags
   default: []
   label: Tags
-  type: ''
+  type: list
   hidden: false
 - name: slug
   default: ''
   label: Slug
-  type: ''
+  type: text
   hidden: false

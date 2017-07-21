@@ -4,25 +4,25 @@
   - jekyll
   - update
   label: Project
-  type: ''
+  type: list
   hidden: false
 - name: layout
   default: text
   label: Layout
-  type: ''
+  type: text
   hidden: false
 - name: author
   default: ''
   label: Author
-  type: ''
+  type: text
   hidden: false
 - name: link
   default: ''
   label: Link
-  type: ''
+  type: text
   hidden: false
 - name: PDF
   default: ''
   label: Pdf
-  type: ''
+  type: text
   hidden: false

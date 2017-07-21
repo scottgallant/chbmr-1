@@ -2,5 +2,5 @@
 - name: link
   default: ''
   label: Link
-  type: ''
+  type: text
   hidden: false

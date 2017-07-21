@@ -1,18 +1,18 @@
 ---
 - name: title
-  type: ''
+  type: text
   label: Title
   config:
     required: true
 - name: layout
   default: person
   label: Layout
-  type: ''
+  type: text
   hidden: true
 - name: sub-title
   default: ''
   label: Sub title
-  type: ''
+  type: text
   hidden: false
 - name: thumbnail
   default: ''
@@ -36,11 +36,11 @@
 - name: email
   default: ''
   label: Email
-  type: ''
+  type: text
   hidden: false
 - name: linkedin
   default: ''
   label: Linkedin
-  type: ''
+  type: text
   hidden: false
   config: {}

@@ -2,49 +2,49 @@
 - name: title
   default: CBT4CBT
   label: Title
-  type: ''
+  type: text
   hidden: false
 - name: date
   default: '2016-04-20T00:00:00+00:00'
   label: Date
-  type: ''
+  type: datetime
   hidden: false
 - name: categories
   default: []
   label: Categories
-  type: ''
+  type: list
   hidden: false
 - name: description
   default: 'Computer-Based Training for Cogntive Behavioural Therapy: An Addictions
     Program for Canada'
   label: Description
-  type: ''
+  type: text
   hidden: false
 - name: thumbnail
   default: assets/images/cbt4cbt logo - long.jpg
   label: Thumbnail
-  type: ''
+  type: file
   hidden: false
 - name: sub-title
   default: Computer-Based Training for Cognitive Behavioral Therapy
   label: Sub title
-  type: ''
+  type: text
   hidden: false
 - name: tags
   default:
   - health
   label: Tags
-  type: ''
+  type: list
   hidden: false
 - name: slug
   default: CBT4CBT
   label: Slug
-  type: ''
+  type: text
   hidden: false
 - name: layout
   default: text
   label: Layout
-  type: ''
+  type: text
   hidden: false
 - name: tags (staff, board, advisor, partner)
   default:
@@ -52,22 +52,22 @@
   - staff
   - advisor
   label: Tags (staff, board, advisor, partner)
-  type: ''
+  type: list
   hidden: false
 - name: email
   default: jukrause@upei.ca
   label: Email
-  type: ''
+  type: text
   hidden: false
 - name: linkedin
   default: www.linkedin.com/pub/juergen-krause/a/b58/8b1
   label: Linkedin
-  type: ''
+  type: text
   hidden: false
 - name: draft
   default: false
   label: Draft
-  type: ''
+  type: boolean
   hidden: false
 - name: services
   default:
@@ -80,23 +80,23 @@
       the biotechnology sector.
     icon: "/images/biotech.png"
   label: Services
-  type: ''
+  type: field_group_list
   fields:
   - name: heading
     default: Heatlh
     label: Heading
-    type: ''
+    type: text
     hidden: false
   - name: description
     default: Performing collaborative research and providing services to support the
       Canadian Health Sector.
     label: Description
-    type: ''
+    type: text
     hidden: false
   - name: icon
     default: "/images/health.png"
     label: Icon
-    type: ''
+    type: file
     hidden: false
   hidden: false
 - name: partners
@@ -105,11 +105,11 @@
   - logo: "/images/iwk-logo.png"
   - logo: "/images/dal-logo.png"
   label: Partners
-  type: ''
+  type: field_group_list
   fields:
   - name: logo
     default: "/images/innovation-pei-logo.png"
     label: Logo
-    type: ''
+    type: file
     hidden: false
   hidden: false

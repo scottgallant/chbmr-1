@@ -3,5 +3,5 @@
   default:
   - something
   label: Tags
-  type: ''
+  type: list
   hidden: false
