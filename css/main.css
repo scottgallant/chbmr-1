@@ -1094,7 +1094,8 @@ nav ul {
   .table-layout table thead {
     background: #f4f4f4; }
     .table-layout table thead th {
-      color: #1e405d; }
+      color: #1e405d;
+      white-space: nowrap; }
       .table-layout table thead th .fa:after {
         content: "\f107";
         font-size: 12px;
@@ -1102,7 +1103,8 @@ nav ul {
       .table-layout table thead th.headerSortDown .fa:after {
         content: "\f106"; }
       .table-layout table thead th:hover {
-        background: #eee; }
+        background: #eee;
+        cursor: pointer; }
   .table-layout table td, .table-layout table th {
     padding: 16px; }
   .table-layout table tr {
