@@ -1,8 +1,6 @@
 ---
 - name: project
-  default:
-  - jekyll
-  - update
+  default: []
   label: Project
   type: list
   hidden: false
