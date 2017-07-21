@@ -63,8 +63,6 @@ defaults:
     type: publications
   values:
     project:
-    - jekyll
-    - update
     layout: text
     author: ''
     link: ''
