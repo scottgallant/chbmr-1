@@ -16,11 +16,11 @@ layout: default
 				{% for publication in site.publications %}
 				<tr>
 					{% if publication.file and publication.file != "" %}
-			      <td><a href="{{ site.baseurl }}/assets/files/{{ publication.file }}">{{ publication.title | slice: 0, 40 }}</a></td>
+			      <td><a href="{{ site.baseurl }}/assets/files/{{ publication.file }}">{{ publication.title | truncate: 40 }}</a></td>
 			    {% else if publication.link and publication.link != "" %}
-			      <td><a href="{{ publication.link }}" target="_new">{{ publication.title | slice: 0, 40 }}</a></td>
+			      <td><a href="{{ publication.link }}" target="_new">{{ publication.title | truncate: 40 }}</a></td>
 					{% else %}
-						<td>{{ publication.title | slice: 0, 40 }}</td>
+						<td>{{ publication.title | truncate: 40 }}</td>
 			    {% endif %}
 					<td><date>{{ publication.date | date_to_string }}</date></td>
 					<td>{{ publication.author }}</td>
