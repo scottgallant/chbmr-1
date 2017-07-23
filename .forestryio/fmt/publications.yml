@@ -22,5 +22,5 @@
 - name: PDF
   default: ''
   label: Pdf
-  type: text
+  type: file
   hidden: false
