@@ -19,7 +19,7 @@
   label: Link
   type: text
   hidden: false
-- name: PDF
+- name: PDF 2
   default: ''
   description: 'test'
   label: Pdf
