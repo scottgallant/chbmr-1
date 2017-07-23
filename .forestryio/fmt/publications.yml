@@ -21,6 +21,7 @@
   hidden: false
 - name: PDF
   default: ''
+  description: 'test'
   label: Pdf
   type: file
   hidden: false
