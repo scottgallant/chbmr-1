@@ -21,12 +21,12 @@ fields:
 - name: thumbnail
   default: ''
   label: Profile Picture
-  type: ''
+  type: boolean
   hidden: false
 - name: tags
   default: 
   label: Relationship
-  type: ''
+  type: boolean
   hidden: false
   description: staff, board, advisor, partner
   config:
