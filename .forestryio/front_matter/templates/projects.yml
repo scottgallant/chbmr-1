@@ -1,0 +1,29 @@
+---
+sections: []
+pages: []
+fields:
+- name: description
+  default: ''
+  label: Description
+  type: text
+  hidden: false
+- name: thumbnail
+  default: ''
+  label: Thumbnail
+  type: text
+  hidden: false
+- name: sub-title
+  default: ''
+  label: Sub title
+  type: text
+  hidden: false
+- name: tags
+  default: []
+  label: Tags
+  type: list
+  hidden: false
+- name: slug
+  default: ''
+  label: Slug
+  type: text
+  hidden: false

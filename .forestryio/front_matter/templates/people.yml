@@ -1,0 +1,50 @@
+---
+sections:
+- people
+pages: []
+fields:
+- name: title
+  type: text
+  label: Title
+  config:
+    required: true
+- name: layout
+  default: person
+  label: Layout
+  type: text
+  hidden: true
+- name: sub-title
+  default: ''
+  label: Sub title
+  type: text
+  hidden: false
+- name: thumbnail
+  default: ''
+  label: Profile Picture
+  type: ''
+  hidden: false
+- name: tags
+  default: 
+  label: Relationship
+  type: ''
+  hidden: false
+  description: staff, board, advisor, partner
+  config:
+    source:
+      type: simple
+    options:
+    - staff
+    - board
+    - advisor
+    - partner
+- name: email
+  default: ''
+  label: Email
+  type: text
+  hidden: false
+- name: linkedin
+  default: ''
+  label: Linkedin
+  type: text
+  hidden: false
+  config: {}
