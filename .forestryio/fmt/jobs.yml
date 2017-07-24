@@ -1,6 +1,0 @@
----
-- name: link
-  default: ''
-  label: Link
-  type: text
-  hidden: false
