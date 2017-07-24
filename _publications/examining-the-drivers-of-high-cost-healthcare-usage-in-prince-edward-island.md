@@ -1,5 +1,5 @@
 ---
-PDF: http://chbmr.ca/PEI_SARV.pdf
+PDF: assets/images/test2.pdf
 author: Mary-Ann MacSwain, Michelle Patterson, George Kephart, Juergen Krause
 date: '2017-07-21T16:06:40+00:00'
 layout: text
