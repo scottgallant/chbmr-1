@@ -1,7 +1,7 @@
 ---
 layout: person
 sub-title: ''
-thumbnail: ''
+thumbnail: assets/images/Screen Shot 2017-07-14 at 11.27.55 AM.png
 tags: []
 email: ''
 linkedin: ''
