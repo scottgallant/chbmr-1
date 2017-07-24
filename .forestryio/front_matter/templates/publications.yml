@@ -23,8 +23,8 @@ fields:
   label: Link
   type: text
   hidden: false
-- name: PDF 2
+- name: PDF
   default: ''
-  label: Pdf 2
-  type: text
+  label: Pdf
+  type: file
   hidden: false
