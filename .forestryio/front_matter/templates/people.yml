@@ -25,7 +25,7 @@ fields:
   type: file
   hidden: false
 - name: tags
-  default:
+  default: 
   label: Relationship
   type: tag_list
   hidden: false
