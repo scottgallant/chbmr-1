@@ -4,28 +4,31 @@ pages:
 - _publications/examining-the-drivers-of-high-cost-healthcare-usage-in-prince-edward-island.md
 hide_body: false
 fields:
-- name: project
-  default: []
-  label: Project
-  type: list
-  hidden: false
-- name: layout
-  default: text
-  label: Layout
-  type: text
-  hidden: false
-- name: author
-  default: ''
-  label: Author
-  type: text
-  hidden: false
-- name: link
-  default: ''
-  label: Link
-  type: text
-  hidden: false
 - name: PDF
   default: ''
   label: Pdf
   type: file
   hidden: false
+- name: layout
+  default: text
+  label: Layout
+  type: text
+  hidden: true
+- name: project
+  default: []
+  label: Project
+  type: list
+  hidden: false
+  description: 'Does this publication belong to one or more projects? '
+- name: author
+  default: ''
+  label: Author
+  type: text
+  hidden: false
+  description: List author(s) here
+- name: link
+  default: ''
+  label: Link
+  type: text
+  hidden: false
+  description: If the publication is on other site, paste link here
