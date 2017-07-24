@@ -25,6 +25,6 @@ fields:
   hidden: false
 - name: PDF 2
   default: ''
-  label: Pdf
+  label: Pdf 2
   type: text
   hidden: false
