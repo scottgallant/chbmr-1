@@ -16,7 +16,7 @@ layout: default
 				{% for publication in site.publications %}
 				<tr>
 					{% if publication.pdf and publication.pdf != "" %}
-			      <td><a href="{{ publication.pdf }}">{{ publication.title | truncate: 40 }}</a></td>
+			      <td><a href="/{{ publication.pdf }}">{{ publication.title | truncate: 40 }}</a></td>
 			    {% else if publication.link and publication.link != "" %}
 			      <td><a href="{{ publication.link }}" target="_new">{{ publication.title | truncate: 40 }}</a></td>
 					{% else %}
